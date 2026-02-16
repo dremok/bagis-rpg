@@ -1,0 +1,31 @@
+{
+  "name": "bagis-rpg",
+  "version": "1.0.0",
+  "description": "SNES-era Zelda-style top-down RPG set in Bagarmossen, Stockholm. Fight becknare, collect fenomen, feed the sentient WhatsApp group.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dremok/bagis-rpg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dremok/bagis-rpg/issues"
+  },
+  "homepage": "https://github.com/dremok/bagis-rpg#readme",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
